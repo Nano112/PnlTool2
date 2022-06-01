@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+[x-cloak] {
+    display: none;
+}
+
+.hidden-file-button::file-selector-button {
+    display: none;
+    width: 0;
+}
